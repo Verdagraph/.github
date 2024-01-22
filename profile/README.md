@@ -11,9 +11,6 @@
 -->
 [![Version][version-shield]][version-url]
 [![Contributors][contributors-shield]][contributors-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![Pull Requests][prs-shield]][prs-url]
 [![License][license-shield]][license-url]
 
 
@@ -40,6 +37,8 @@
     <a href="link to discord">Discord</a>
     ·
     <a href="https://youtu.be/jGFHhRVdxRM">YouTube</a>
+    ·
+    <a href="link to patreon">Patreon</a>
     <br />
   </p>
 </div>
@@ -48,16 +47,18 @@ VerdanTech is an open source software project best summarized as a fusion betwee
 
 - **Garden Productivity Engine**: An intricate and interactive model of agriculture which facilitates the data-driven planning of productive spaces and the collaborative coordination of labour at any scale.
 - **Agro-Ecology Optimization Model**: A model which captures the relationship between agriculture and the broader ecological system, with the goal of producing a healthy abundance and diversity of food with minimal reliance on conditions of resource depletion and ecological destruction.
-- **IoT Automation Suite**: A model which is complemented by an Internet-of-Things (IoT) platform, serving as an extensible interface for integration with external APIs. Alongside the platform is a set of embedded devices designed to automate the process of obtaining measurements and executing tasks.
+- **IoT Automation Suite**: An Internet-of-Things (IoT) platform which serves as an extensible interface for integration with external APIs. Alongside the platform is a set of embedded devices designed to automate the process of obtaining measurements and executing tasks.
 
-Repositories:
-- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overview and design documents.
-- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains an async Python HTTP and Websocket API.
-- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter SPA. 
-- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains application deployment orchestration. 
-- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
+The goal of VerdanTech is to provide software tools that make it easier to collaboratively plan, track, optimize, and automate bio-diverse agriculture systems at any scale, from small backyard container gardens to a multi-acre community plots. 
 
 VerdanTech has been in development since late 2022, or early 2021 if we count the [initial attempt](https://www.youtube.com/watch?v=w0TwPI7bLp8&ab_channel=TotalVeganicFuturism) at a similar idea. VerdanTech is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose.
+
+The project currently is made up of several repositories:
+- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents.
+- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API.
+- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application. 
+- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains application deployment orchestration. 
+- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
 
 <!--- See the video introduction to VerdanTech here: --->
 <!--- [![Watch the video](https://img.youtube.com/vi/jGFHhRVdxRM/maxresdefault.jpg)](https://youtu.be/jGFHhRVdxRM) --->
@@ -149,7 +150,7 @@ VerdanTech has been in development since late 2022, or early 2021 if we count th
 
 *This section highlights the problems that VerdanTech aims to solve and the nature of the solutions.*
 
-## What is agriculture?
+## Agriculture
 
 Dictionary.com [defines agriculture as](https://www.dictionary.com/browse/agriculture):
 > the science, art, or occupation concerned with cultivating land, raising crops, and feeding, breeding, and raising livestock; farming.
@@ -159,7 +160,7 @@ VerdanTech is built with [sentientist values](https://sentientism.info/) in mind
 
 The specific term "animal agriculture" retains its meaning. 
 
-## What is ecology?
+## Ecology
 
 Merriam Webster [defines ecology as](https://www.merriam-webster.com/dictionary/ecology)
 > a branch of science concerned with the interrelationship of organisms and their environments, the totality or pattern of relations between organisms and their environment.
@@ -175,104 +176,55 @@ Despite our reliance on these services, we maintain relationships with the ecolo
 
 Our environment is planet Earth, and the combined ecological impact of all our systems of extraction, production, pollution, and emission amounts to a truly devastating level of resource depletion, biosphere destruction, climate change, and more. The situation is intolerable. It falls on us to figure out how we need to adapt and then to undertake it.
 
-A truly ecological, sustainable society requires many adaptations. Some are technological, including changes to what resources we depend on and what procceses we use to achieve our goals. Technological adaptations involve some combination of meeting our energy and material demands through sustainable resources and finding ways to reduce the amount of those resources required for the services we demand. Some adaptations are social, including changes to what our goals are and thus what services we demand, and how we organize ourselves to enable those goals to be met. Social adaptations involve the creation of human organization centered around solidarity, equality, and cooperation towards collective success and the equal interest of all individuals across species and generations.
+A truly sustainable society requires many adaptations. Some are technological, including changes to what resources we depend on and what procceses we use to achieve our goals. Technological adaptations involve some combination of meeting our energy and material demands through sustainable resources and finding ways to reduce the amount of those resources required for the services we demand. Other adaptations are social, including changes to what our goals are and thus what services we demand and how we organize ourselves to meet them. Social adaptations involve the creation of human organization centered around solidarity, equality, and cooperation towards collective success and the equal interest of all individuals across species and generations.
 
 Almost all of these adaptations are interconnected, and massive in scope. VerdanTech focuses specifically on agriculture and its relation to ecology and the organization of human labour.
 
-## How does agriculture interact with ecology?
+### Modern Industrial Agriculture and the Ecological Alternative
 
-***WIP***
+Our modern industrial agriculture system leaves much to be desired in the way of ecological sustainability. To summarize this article titled [How sustainable agriculture can address the environmental and human health harms of industrial agriculture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240832/):
+- The intensive use of monocultures, synthetic fertilizers, and pesticides causes biodiversity destruction.
+- A reliance on non-renewable fossil fuels for the production of chemical inputs and mechanical work, as well as the use of renewable resources such as soil and water faster than their rate of regeneration, creates a dependency on unsustainable conditions of ecological destruction. 
+- The monopolization of the means of agriculture production leads to a social rift between the needs and wants of consumers and the livelihoods of producers. 
 
-The relationship between agriculture and ecology spans many interactions between humans, other organisms, and the rest of the Earth system.
-
-### Every agriculture system has several components
-- **Land** 
-    - The surface of Earth is currently our only option for the foundation of agricultural systems. *Land use patterns* are how we describe the categorization of humanity's use of land.
-    - How much land we have relative to how much food we want to produce changes our options for agricultural systems. [*Intensive agriculture*](https://www.britannica.com/topic/intensive-agriculture) is characterized by an increased use of material inputs and a higher expected harvest per unit of land area. [*Extensive agriculture*](https://www.britannica.com/topic/extensive-agriculture) is characterized by a decreased use of material inputs and a lower expected harvest per unit of land. The optimal land intensivity of an agricultural system depends on what land and material inputs are available.
-    - *Land use change* describes how our land use patterns shift over time, including modifying, receding from, and adding new use of land. The character of land use change affects the behaviour of ecosystems in many ways, including reductions in ecosystem services.
-- **Nutrients and water**
-    - Plants need material resources to grow and have nutritional profiles that bring optimal growth. Plants require macronutrients including nitrogen, phosphorus, and potassium, micronutrients including iron, boron, and copper, and water.
-- **Soil and the biosphere**
-    - Dirt isn't soil, because soil implies some kind of biosphere
-    - The soil is a home to networks of plant and fungi species that do a lot of things: list some examples the legume bacteria, mychorrizal fungi
-    - The net result is an overall quantity of productive capacity, that is nutrient and regeneration, and a quantity of regenerative capacity, that is abilities to absorb and repurpose various chemical compounds. If there is a new outflow of material out, the system will eventually run out
-    - soil can be destroyed
-- **Suitable climate conditions**.
-    - There must be enough sunlight, temperature, free from storms, all the climate factors
-- **Cultivation of the biosphere**
-    - Ultimately, we must make some combination of introducing and managing domestic species
-    - This managing can take place with or without consideration of the rest of the eco system 
-- **Physical labour by some combination of humans and machines**
-    - Some way of actioning the modifications is required
-- **A logistical path from production to consumption**
-    - For the food to be consumed, it must be processed and distributed to the consumers.
-
-### What is modern industrial agriculture?
-- **Land** 
-    - Have used up x amonut of arable land. We really don't have much room left to grow in land. Eliminating animal agriculture would help a loooot on land. Land use is very segregated between rural and urban.
-- **Nutrients and water**
-   - Nutrients largely come from synthetic chemical inputs, which come from fossil fuels. Water largely comes from imports as well, and often relies on unsustainable conditions.
-- **Soil and the biosphere**
-    - 
-- **Suitable climate conditions**.
-
-- **Cultivation of the biosphere**
-
-- **Physical labour by some combination of humans and machines**
-
-- **A logistical path from production to consumption**
-
-- so much land has been converted
-- the material balance of the soil is kept in balance by intensive input 
-- the bioshere modification has served to devastate the biodiversity required for natural procceses like soil building, and make our bioshpheres go against that of nature, for example growing water intesive crops in deserts by importing loads of water.
-- the physical work is extremely simple and requires massive amounts of fossil fuels to keep going, and as a consequence our society structures itself around being able to produce limitless food with a small percentage of the population
-- reliant on fossil fuels which destabalize and destroy the climactic conditions we need
-- on the social side, has centralized and monopolized over time due to the costly inputs
-
-- reliance on fossil fuels, an unrenewable resource with existential externalities, for fertilizer, chemical treatments like pesticide, and fuel for machines.
-- reliance on intensive input 
-
-what is the nature of the adaptations we need to get out of this?
-
-
-
-### What is agro-ecology?
-
-The United Nations Food and Agriculture Organization (FAO) [defines agro-ecology as](https://www.fao.org/3/i9037en/i9037en.pdf):
+In other words, the modern industrial agriculture system is dependent on systems which undermini the conditions required for its own existence and that of society. 
+ 
+The application of ecological analysis to agriculture highlights a clear need for a transition to sustainable agriculture as a core sector of sustainable development. The concept of agro-ecology seeks to provide a framework for understanding the path that we need to take. The United Nations Food and Agriculture Organization (FAO) [defines agro-ecology as](https://www.fao.org/3/i9037en/i9037en.pdf):
 >Agroecology is an integrated approach that simultaneously applies ecological and social concepts and principles to the design and management of food and agricultural systems. It seeks to optimize the interactions between plants, animals, humans and the environment while taking into consideration the social aspects that need to be addressed for a sustainable and fair food system. Rather than tweaking the practices of unsustainable agricultural systems, agroecology seeks to transform food and agricultural systems, addressing the root causes of problems in an integrated way and providing holistic and long-term solutions. [Agroecology] is based on bottom-up and territorial processes, helping to deliver contextualised solutions to local problems. Agroecological innovations are based on the co-creation of knowledge, combining science with the traditional, practical and local knowledge of producers. By enhancing their autonomy and adaptive capacity, agroecology empowers producers and communities as key agents of change.
 
-- **Land** 
+As a result, a transition to a sustainable agriculture system will require a few main challenges: 
 
-- **Nutrients and water**
-   
-- **Soil and the biosphere**
+Integration with natural ecosystem dynamics and less use of non-renewable energy requires more complex, bio-diverse systems which are harder to cognitively and physically manage.
+Using less fossil fuels implies a labour transition.
+We need closer connections between producers and consumers
 
-- **Suitable climate conditions**.
+Meaning that we need more labour, and the labour needs to be more ecologically skilled
 
-- **Cultivation of the biosphere**
+- The destruction of bio-diversity 
 
-- **Physical labour by some combination of humans and machines**
+- The consumption of fossil fuels, water, and fertile soil at unsustainable rates.
+- The destruction of bio-diversity 
+- Pollution 
 
-- **A logistical path from production to consumption**
 
-### Bonus statistics: animal agriculture
-Goals:
-- Use less energy totsl
-- Usr less fossil energy
-- Create more biodiverse systems
-- Create more decentralized systems
-- Increased human labour
+The adaptations of agro-ecology are necessary to solve a multitude of problems with how our modern agriculture system fails us:
+- Degradation of biodiversity, simplification
+- Mechanization, simplification
+- 
 
 general agriculture: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240832/
+labour transition: https://www.frontiersin.org/articles/10.3389/fsufs.2019.00096/full
 land use strategies: https://www.sciencedirect.com/science/article/abs/pii/S2211912412000363
 
-## How could a technological innovation best empower humans to adapt?
+## How could a technological innovation best empower us to adapt?
 
 ***WIP***
+
+Minimize the cognitive load associated with planning, tracking, optimizing, and automating an agro-ecological system.
 
 being able to expirement systematically with various types of growing systemr
 
-## What is VerdanTech? How does it aim to move in this direction?
+## What is VerdanTech?
 
 ***WIP***
 
