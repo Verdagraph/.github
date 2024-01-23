@@ -53,13 +53,6 @@ The goal of VerdanTech is to provide software tools that make it easier to colla
 
 VerdanTech has been in development since late 2022, or early 2021 if we count the [initial attempt](https://www.youtube.com/watch?v=w0TwPI7bLp8&ab_channel=TotalVeganicFuturism) at a similar idea. VerdanTech is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose.
 
-The project currently is made up of several repositories:
-- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents.
-- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API.
-- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application. 
-- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains application deployment orchestration. 
-- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
-
 <!--- See the video introduction to VerdanTech here: --->
 <!--- [![Watch the video](https://img.youtube.com/vi/jGFHhRVdxRM/maxresdefault.jpg)](https://youtu.be/jGFHhRVdxRM) --->
 
@@ -183,38 +176,23 @@ Almost all of these adaptations are interconnected, and massive in scope. Verdan
 ### Modern Industrial Agriculture and the Ecological Alternative
 
 Our modern industrial agriculture system leaves much to be desired in the way of ecological sustainability. To summarize this article titled [How sustainable agriculture can address the environmental and human health harms of industrial agriculture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240832/):
-- The intensive use of monocultures, synthetic fertilizers, and pesticides causes biodiversity destruction.
+- The intensive use of monocultures, synthetic fertilizers, and pesticides causes biodiversity destruction and environmental pollution.
 - A reliance on non-renewable fossil fuels for the production of chemical inputs and mechanical work, as well as the use of renewable resources such as soil and water faster than their rate of regeneration, creates a dependency on unsustainable conditions of ecological destruction. 
-- The monopolization of the means of agriculture production leads to a social rift between the needs and wants of consumers and the livelihoods of producers. 
+- The monopolization of the means of agricultural production leads to a social rift between the needs and wants of consumers and the livelihoods of producers. 
 
-In other words, the modern industrial agriculture system is dependent on systems which undermini the conditions required for its own existence and that of society. 
+In other words, the modern industrial agriculture system is dependent on systems which undermine the conditions required for its own existence and that of society. 
  
 The application of ecological analysis to agriculture highlights a clear need for a transition to sustainable agriculture as a core sector of sustainable development. The concept of agro-ecology seeks to provide a framework for understanding the path that we need to take. The United Nations Food and Agriculture Organization (FAO) [defines agro-ecology as](https://www.fao.org/3/i9037en/i9037en.pdf):
 >Agroecology is an integrated approach that simultaneously applies ecological and social concepts and principles to the design and management of food and agricultural systems. It seeks to optimize the interactions between plants, animals, humans and the environment while taking into consideration the social aspects that need to be addressed for a sustainable and fair food system. Rather than tweaking the practices of unsustainable agricultural systems, agroecology seeks to transform food and agricultural systems, addressing the root causes of problems in an integrated way and providing holistic and long-term solutions. [Agroecology] is based on bottom-up and territorial processes, helping to deliver contextualised solutions to local problems. Agroecological innovations are based on the co-creation of knowledge, combining science with the traditional, practical and local knowledge of producers. By enhancing their autonomy and adaptive capacity, agroecology empowers producers and communities as key agents of change.
 
-As a result, a transition to a sustainable agriculture system will require a few main challenges: 
+A truly sustainable transformation of our agriculture system faces challenges. Possibly the greatest challenge is articulated by an article titled [Transitioning to Sustainable Agriculture Requires Growing and Sustaining an Ecologically Skilled Workforce](https://www.frontiersin.org/articles/10.3389/fsufs.2019.00096/full):
+>... the single greatest sustainability challenge for agriculture may well be that of replacing non-renewable resources with agroecologically skilled people.
 
-Integration with natural ecosystem dynamics and less use of non-renewable energy requires more complex, bio-diverse systems which are harder to cognitively and physically manage.
-Using less fossil fuels implies a labour transition.
-We need closer connections between producers and consumers
+The transition away from highly simplified artifical ecosystems, non-renewable inputs, and highly mechanized labour requires more human labour to manage more complex systems.
 
-Meaning that we need more labour, and the labour needs to be more ecologically skilled
-
-- The destruction of bio-diversity 
-
-- The consumption of fossil fuels, water, and fertile soil at unsustainable rates.
-- The destruction of bio-diversity 
-- Pollution 
+This is due to the transition away from a highly simplified, non-renewable input, mechanized production system requiring more human labour and a vastly more complex agro-ecosystems 
 
 
-The adaptations of agro-ecology are necessary to solve a multitude of problems with how our modern agriculture system fails us:
-- Degradation of biodiversity, simplification
-- Mechanization, simplification
-- 
-
-general agriculture: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240832/
-labour transition: https://www.frontiersin.org/articles/10.3389/fsufs.2019.00096/full
-land use strategies: https://www.sciencedirect.com/science/article/abs/pii/S2211912412000363
 
 ## How could a technological innovation best empower us to adapt?
 
@@ -225,6 +203,17 @@ Minimize the cognitive load associated with planning, tracking, optimizing, and 
 being able to expirement systematically with various types of growing systemr
 
 ## What is VerdanTech?
+
+In short, VerdanTech is a technology project seeking to enhance the adaptive resilience of human society by minimizing the cognitive load required to plan, track, optimize, and automate agro-ecological systems.
+
+It seeks to fuse three main concepts:
+
+- **Garden Productivity Engine**: At its most basic, 
+- **Agro-Ecology Optimization Model**: A model which captures the relationship between agriculture and the broader ecological system, with the goal of producing a healthy abundance and diversity of food with minimal reliance on conditions of resource depletion and ecological destruction.
+- **IoT Automation Suite**: An Internet-of-Things (IoT) platform which serves as an extensible interface for integration with external APIs. Alongside the platform is a set of embedded devices designed to automate the process of obtaining measurements and executing tasks.
+
+As an open source tool, can be modified and extended by communities, in the hands of the people who do the work as well as the people who consume. 
+ 
 
 ***WIP***
 
@@ -255,7 +244,12 @@ In terms of agro ecology,
 
 # Codebase
 
-***WIP***
+The project currently is made up of several repositories:
+- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents.
+- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API.
+- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application. 
+- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains application deployment orchestration. 
+- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
 
 ## Built With
 
@@ -274,11 +268,6 @@ Recommended VS code theme: Solarized Dark
 
 ### Background
 
-The python backend implements a clean architecture pattern, meaning that the functions of the application are segregated in a way that minimizes coupling. Quick summaries for the layers:
-- The domain layer holds the core business logic and is made up of four components: Entities, which are objects with IDs and individuality that represent concepts in the problem space, RootEntities which are entities that make up Collections of documents or SQL tables in the database, meaning they represent consistency boundaries of data, value objects, which are ID-less and immutable, and represent individual-less states, and services, which encapsulate core logic in the problem domain that can't be relegated to any of the other options. All these concepts are implemented using native Python dataclasses. The domain layer also holds interfaces that are relied upon by the domain layer and application layer
-- The application layer orchestrates the domain layer and connects it to implementations of the interfaces. The application layer has two parts: the operaions sections, which are high level application functions and make up the main API (are-one to one with http API routes), and the services sections, which comprise more granular orchestrations of the domain logic and are called in the operations.
-- The infrastrure contains implementations of the domain service interfaces, such as database implementations of the repository interface. The only repository in use so far is a MongoDB Motor (async pymongo) implementation. The repository abstraction makes it possible to use different implementations in the future, but I havent investigated the potential compatibility with a sql database (plan to stick with mongo)
-- The API layer is the http and websocket wrapping around the application layer, and is implemented using the Litestar 
 
 ### Documentation
 
