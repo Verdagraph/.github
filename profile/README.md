@@ -18,7 +18,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/VerdanTech">
-    <img src="./graphics/logo.png" alt="Logo" width="200" height="200">
+    <img src="https://github.com/VerdanTech/.github/blob/main/profile/graphics/logo.png" alt="Logo" width="200" height="200">
   </a>
 
 <h3 align="center">VerdanTech</h3>
@@ -30,10 +30,6 @@
     <a href=""><strong>Try it yourself »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-    ·
     <a href="link to discord">Discord</a>
     ·
     <a href="https://youtu.be/jGFHhRVdxRM">YouTube</a>
@@ -56,7 +52,6 @@ VerdanTech has been in development since late 2022, or early 2021 if we count th
 <!--- See the video introduction to VerdanTech here: --->
 <!--- [![Watch the video](https://img.youtube.com/vi/jGFHhRVdxRM/maxresdefault.jpg)](https://youtu.be/jGFHhRVdxRM) --->
 
-<br />
 <div>
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -66,77 +61,28 @@ VerdanTech has been in development since late 2022, or early 2021 if we count th
             <a href="#background">Background</a>
             <ul>
                 <li>
-                    <a href="#the-problem">The Problem</a>
+                    <a href="#agriculture">Agriculture</a>
                 </li>
                 <li>
-                    <a href="#the-solution">The Solution</a>
+                    <a href="#ecology">Ecology</a>
+                </li>
+                <li>
+                    <a href="#modern-industrial-agriculture-and-the-ecological-alternative">Modern Industrial Agriculture and the Ecological Alternative</a>
+                </li>
+                <li>
+                    <a href="#technology-and-adaptive-resilience">Technology and Adaptive Resilience</a>
+                </li>
+                <li>
+                    <a href="#the-goals-and-values-of-verdantech">The Goals and Values of VerdanTech</a>
                 </li>
             </ul>
-        </li>
-        <li>
-            <a href="#features">Features</a>
-            <ul>
-                <li>
-                    <a href="#completed">Completed</a>
-                </li>
-                <li>
-                    <a href="#in-progress">In Progress</a>
-                </li>
-                <li>
-                    <a href="#planned">Planned</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#deployment">Deployment</a>
         </li>
         <li>
             <a href="#codebase">Codebase</a>
-            <ul>
-                <li>
-                    <a href="#built-with">Built With</a>
-                </li>
-                <li>
-                    <a href="#architecture">Architecture</a>
-                </li>
-                <li>
-                    <a href="#download-and-installation">Download and Installation</a>
-                </li>
-                <li>
-                    <a href="#backend">Backend</a>
-                    <ul>
-                        <li>
-                            <a href="#background-1">Background</a>
-                        </li>
-                        <li>
-                            <a href="#documentation">Documentation</a>
-                        </li>
-                        <li>
-                            <a href="#contributing">Contributing</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#frontend">Frontend</a>
-                    <ul>
-                        <li>
-                            <a href="#background-2">Background</a>
-                        </li>
-                        <li>
-                            <a href="#documentation-1">Documentation</a>
-                        </li>
-                        <li>
-                            <a href="#contributing-1">Contributing</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#community">Community</a>
         </li>
     </ul>
 </details>
+<br />
 </div>
 
 # Background
@@ -152,6 +98,8 @@ VerdanTech is built with [sentientist values](https://sentientism.info/) in mind
 > the science, art, or occupation concerned with cultivating land and raising crops; farming.
 
 The specific term "animal agriculture" retains its meaning. 
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 ## Ecology
 
@@ -173,38 +121,42 @@ A truly sustainable society requires many adaptations. Some are technological, i
 
 Almost all of these adaptations are interconnected, and massive in scope. VerdanTech focuses specifically on agriculture and its relation to ecology and the organization of human labour.
 
-### Modern Industrial Agriculture and the Ecological Alternative
+<p align="right"><a href="#readme-top">back to top</a></p>
+
+## Modern Industrial Agriculture and the Ecological Alternative
 
 Our modern industrial agriculture system leaves much to be desired in the way of ecological sustainability. To summarize this article titled [How sustainable agriculture can address the environmental and human health harms of industrial agriculture](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1240832/):
 - The intensive use of monocultures, synthetic fertilizers, and pesticides causes biodiversity destruction and environmental pollution.
 - A reliance on non-renewable fossil fuels for the production of chemical inputs and mechanical work, as well as the use of renewable resources such as soil and water faster than their rate of regeneration, creates a dependency on unsustainable conditions of ecological destruction. 
-- The monopolization of the means of agricultural production leads to a social rift between the needs and wants of consumers and the livelihoods of producers. 
+- The monopolization of the means of agricultural production leads to a social rift between producers and consumers. 
 
-In other words, the modern industrial agriculture system is dependent on systems which undermine the conditions required for its own existence and that of society. 
+In a sentence, the modern industrial agriculture system is dependent on systems which undermine the conditions required for its own existence and that of society. 
  
 The application of ecological analysis to agriculture highlights a clear need for a transition to sustainable agriculture as a core sector of sustainable development. The concept of agro-ecology seeks to provide a framework for understanding the path that we need to take. The United Nations Food and Agriculture Organization (FAO) [defines agro-ecology as](https://www.fao.org/3/i9037en/i9037en.pdf):
 >Agroecology is an integrated approach that simultaneously applies ecological and social concepts and principles to the design and management of food and agricultural systems. It seeks to optimize the interactions between plants, animals, humans and the environment while taking into consideration the social aspects that need to be addressed for a sustainable and fair food system. Rather than tweaking the practices of unsustainable agricultural systems, agroecology seeks to transform food and agricultural systems, addressing the root causes of problems in an integrated way and providing holistic and long-term solutions. [Agroecology] is based on bottom-up and territorial processes, helping to deliver contextualised solutions to local problems. Agroecological innovations are based on the co-creation of knowledge, combining science with the traditional, practical and local knowledge of producers. By enhancing their autonomy and adaptive capacity, agroecology empowers producers and communities as key agents of change.
 
 A truly sustainable transformation of our agriculture system faces challenges. Possibly the greatest challenge is articulated by an article titled [Transitioning to Sustainable Agriculture Requires Growing and Sustaining an Ecologically Skilled Workforce](https://www.frontiersin.org/articles/10.3389/fsufs.2019.00096/full):
->... the single greatest sustainability challenge for agriculture may well be that of replacing non-renewable resources with agroecologically skilled people.
+>The single greatest sustainability challenge for agriculture may well be that of replacing non-renewable resources with agroecologically skilled people.
 
-The transition away from highly simplified artifical ecosystems, non-renewable inputs, and highly mechanized labour requires more human labour to manage more complex systems.
+In other words, the transition away from simple artifical ecosystems and non-renewable inputs to diverse ecologies integrated with renewable cycles requires more human labour managing more complex systems.
 
-This is due to the transition away from a highly simplified, non-renewable input, mechanized production system requiring more human labour and a vastly more complex agro-ecosystems 
+<p align="right"><a href="#readme-top">back to top</a></p>
 
+## Technology and Adaptive Resilience
 
+Adaptation 
 
-## How could a technological innovation best empower us to adapt?
-
-***WIP***
+How could a  
 
 Minimize the cognitive load associated with planning, tracking, optimizing, and automating an agro-ecological system.
 
 being able to expirement systematically with various types of growing systemr
 
-## What is VerdanTech?
+<p align="right"><a href="#readme-top">back to top</a></p>
 
-In short, VerdanTech is a technology project seeking to enhance the adaptive resilience of human society by minimizing the cognitive load required to plan, track, optimize, and automate agro-ecological systems.
+## The Goals and Values of VerdanTech
+
+In short, VerdanTech is a project seeking to enhance the adaptive resilience of human society by minimizing the cognitive load required to plan, track, optimize, and automate agro-ecological systems.
 
 It seeks to fuse three main concepts:
 
@@ -230,84 +182,23 @@ In terms of agro ecology,
 - cocreation of knowledge, enhancing adaptability
 - optimal spatial and temporal diversity planning
 
-## What are the core values of VerdanTech as a project?
-
-***WIP***
-
-## What are the core values of VerdanTech as a software system?
-
-***WIP***
-
-
-
 <p align="right"><a href="#readme-top">back to top</a></p>
 
 # Codebase
 
 The project currently is made up of several repositories:
-- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents.
-- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API.
-- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application. 
-- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains application deployment orchestration. 
+- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents, including summaries and maps of the domain model and wireframes for the web application.
+- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API that serves as a backend for the VerdanTech web application.
+- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application which serves as a frontend for the web application. 
+- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains web application deployment orchestration. 
 - [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
-
-## Built With
-
-* [![Svelte][Svelte.dev]][Svelte-url]
-[
-
-## Architecture
-
-The application implements a decoupled backend/frontent arhitecture. The backend is an asynchronous python3. running on uvicore, and the frontend is a SvelteKit spa-mode static file generator with Skeleton UI.
-
-## Download and Installation
-
-Recommended VS code theme: Solarized Dark
-
-## Backend
-
-### Background
-
-
-### Documentation
-
-### Contributing
-
-## Frontend
-
-### Background
-
-Why I chose Svelte and Skeleton.
-
-### Documentation
-
-### Contributing
-
-# Community
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-<!-- IN-REPO -->
 [version-shield]: https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge
 [version-url]: https://github.com/nathanielarking/Autonomous-Agriculture/releases
 [contributors-shield]: https://img.shields.io/github/contributors/nathanielarking/VerdanTech.svg?style=for-the-badge
 [contributors-url]: https://github.com/nathanielarking/VerdanTech/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/nathanielarking/VerdanTech.svg?style=for-the-badge
-[stars-url]: https://github.com/nathanielarking/VerdanTech/stargazers
-[issues-shield]: https://img.shields.io/github/issues/nathanielarking/VerdanTech.svg?style=for-the-badge
-[issues-url]: https://github.com/nathanielarking/VerdanTech/issues
-[prs-shield]: https://img.shields.io/github/issues-pr/nathanielarking/VerdanTech.svg?style=for-the-badge
-[prs-url]: https://github.com/nathanielarking/VerdanTech/pulls
 [license-shield]: https://img.shields.io/github/license/nathanielarking/VerdanTech.svg?style=for-the-badge
 [license-url]: https://github.com/nathanielarking/VerdanTech/LICENSE.txt
-
-<!-- OTHER-REPO -->
-[devices]: https://github.com/nathanielarking/VerdanTech-Devices
-
-<!-- EXTERNAL -->
-
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
