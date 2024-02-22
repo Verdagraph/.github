@@ -30,11 +30,11 @@
     <a href=""><strong>Try it yourself »</strong></a>
     <br />
     <br />
-    <a href="link to discord">Discord</a>
+    <a href="https://discord.gg/U8ps6YCc">Discord</a>
     ·
     <a href="https://youtu.be/jGFHhRVdxRM">YouTube</a>
     ·
-    <a href="link to patreon">Patreon</a>
+    <a href="">Donate</a>
     <br />
   </p>
 </div>
@@ -76,6 +76,9 @@ VerdanTech has been in development since late 2022, or early 2021 if we count th
         </li>
         <li>
             <a href="#codebase">Codebase</a>
+        </li>
+        <li>
+            <a href="#features">Features</a>
         </li>
     </ul>
 </details>
@@ -174,14 +177,14 @@ The project currently is made up of several repositories:
 VerdanTech is currently still in a pre-alpha state. As there is only one contributor, these things take a while.
 
 1.0 (Minimum Viable Product) Goals:
-- User registration, authentication, and management system.
-- Gardens which act as containers for most application data and workspaces shared by multiple Users.
-- Workspaces which give spatial context to geometries such as Plants and PlantingAreas.
-- Attribute system which flexibly represents a diverse range of environmental and biological characteristics.
-- Cultivars which are compositions of attributes into representations of plant types, species, and varieties.
-- Plants which are representations of physical instances of plants and their lifecycles and behaviours within PlantingAreas.
-- Agroplans which are integrations of past/current and future instances of Plants into plans which are validated against physical contstraints and can be optimized.
-- A Planner interface which visualizes the planting windows of plant varieties over time and the 2D representation of workspaces throughout time.
+- User registration, authentication, and management system. (Backend 75%, frontend 40%)
+- Gardens which act as containers for most application data and workspaces shared by multiple Users. (Backend 40%, frontend 5%)
+- Workspaces which give spatial context to geometries such as Plants and PlantingAreas. (Backend 5%, frontend 0%)
+- Attribute system which flexibly represents a diverse range of environmental and biological characteristics. (Backend 15%, frontend 0%)
+- Cultivars which are compositions of attributes into representations of plant types, species, and varieties. (Backend 5%, frontend 0%)
+- Plants which are representations of physical instances of plants and their lifecycles and behaviours within PlantingAreas. (Backend 5%, frontend 0%)
+- Agroplans which are integrations of past/current and future instances of Plants into plans which are validated against physical contstraints and can be optimized. (Backend 0%, frontend 0%)
+- A Planner interface which visualizes the planting windows of plant varieties over time and the 2D representation of workspaces throughout time. (Backend 0%, frontend 0%)
 
 Future goals:
 - AgroplanGenerators which which create and transform Agroplans according to objectives (ex. quantities and proportions of plant varieties, maximum calories, biodiversity) using algorithmic strategies (ex. simulated annealing).
