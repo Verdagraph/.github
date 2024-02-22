@@ -169,6 +169,26 @@ The project currently is made up of several repositories:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
+# Features
+
+VerdanTech is currently still in a pre-alpha state. As there is only one contributor, these things take a while.
+
+1.0 (Minimum Viable Product) Goals:
+- User registration, authentication, and management system.
+- Gardens which act as containers for most application data and workspaces shared by multiple Users.
+- Workspaces which give spatial context to geometries such as Plants and PlantingAreas.
+- Attribute system which flexibly represents a diverse range of environmental and biological characteristics.
+- Cultivars which are compositions of attributes into representations of plant types, species, and varieties.
+- Plants which are representations of physical instances of plants and their lifecycles and behaviours within PlantingAreas.
+- Agroplans which are integrations of past/current and future instances of Plants into plans which are validated against physical contstraints and can be optimized.
+- A Planner interface which visualizes the planting windows of plant varieties over time and the 2D representation of workspaces throughout time.
+
+Future goals:
+- AgroplanGenerators which which create and transform Agroplans according to objectives (ex. quantities and proportions of plant varieties, maximum calories, biodiversity) using algorithmic strategies (ex. simulated annealing).
+- Actions which are to-do lists intelligently generated from garden state.
+- Environmental Inputs (ex. Temperature, Rainfall, Images), and Outputs (ex. Irrigation Control) which add behavior to the model, as well as Devices (ex. APIs, embedded systems) which expose these ports to other systems.
+- Differential synchronization of client and server data for smooth multi-client use. 
+
 [version-shield]: https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge
 [version-url]: https://github.com/nathanielarking/Autonomous-Agriculture/releases
 [contributors-shield]: https://img.shields.io/github/contributors/nathanielarking/VerdanTech.svg?style=for-the-badge
