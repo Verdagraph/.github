@@ -27,25 +27,29 @@
     A garden productivity tool, agro-ecology model, and IoT platform
     for a sustainable and cooperative future.
     <br />
+    <!-- 
     <a href=""><strong>Try it yourself »</strong></a>
     <br />
+    -->
     <br />
     <a href="https://discord.gg/U8ps6YCc">Discord</a>
+    <!-- 
     ·
     <a href="https://youtu.be/jGFHhRVdxRM">YouTube</a>
     ·
     <a href="">Donate</a>
+    --> 
     <br />
   </p>
 </div>
 
-VerdanTech is an open source software and embedded systems project best summarized as a fusion between:
+VerdanTech is an open source technology project seeking to provide tools that make it easier to collaboratively plan, track, optimize, and automate agro-ecological systems at any scale. 
+
+It is best summarized as a fusion between:
 
 - **Garden Productivity Engine**: An intricate and interactive model of agriculture which facilitates the data-driven planning of productive spaces and the collaborative coordination of labour at any scale.
 - **Agro-Ecology Optimization Model**: A model which captures the relationship between agriculture and the broader ecological system, with the goal of producing a healthy abundance and diversity of food with minimal reliance on conditions of resource depletion and ecological destruction.
 - **IoT Automation Suite**: An Internet-of-Things (IoT) platform which serves as an extensible interface for integration with external APIs and a set of embedded devices designed to automate the process of obtaining measurements and executing tasks.
-
-In short, the goal of VerdanTech is to provide tools that make it easier to collaboratively plan, track, optimize, and automate agro-ecological systems at any scale.
 
 VerdanTech has been in development since late 2022, or early 2021 if we count the [initial attempt](https://www.youtube.com/watch?v=w0TwPI7bLp8&ab_channel=TotalVeganicFuturism) at a similar idea. VerdanTech is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose.
 
@@ -113,9 +117,7 @@ In our world today, the relationship between ecology and human society is more i
 - **Supporting services** maintain the foundation of a functioning ecosytem, including the water cycle, nutrient cycle, and biodiversity.  
 - **Cultural services** provide non-material benefits such as spiritual, intellectual, recreational, and aesthetic values.
 
-Despite our reliance on these services, we maintain relationships with the ecologies responsible for them that are largely unsustainable. Keeping in mind the broad and varied scope of ecosystem services, a society cannot be sustained when its consumption of resources or emissions of waste exceed the regenerative or absorbative capacities of its environment. A society of these conditions undermines not only its own wellbeing but also that of fellow inhabitants and the health of the ecosystem itself. 
-
-Our environment is planet Earth, and the combined ecological impact of all our systems of extraction, production, pollution, and emission amounts to a truly devastating level of resource depletion, biosphere destruction, climate change, and more. The situation is intolerable. It falls on us to figure out how we need to adapt and then to undertake it.
+Despite our reliance on these services, we maintain relationships with the ecologies responsible for them that are largely destructive and unsustainable. The combined ecological impact of all our systems of extraction, production, pollution, and emission amounts to a truly devastating level of resource depletion, biosphere destruction, climate change, and more. The situation is intolerable. It falls on us to figure out how we need to adapt and then to undertake it.
 
 A truly sustainable society requires many adaptations. Some are technological, including changes to what resources we depend on and what procceses we use to achieve our goals. Technological adaptations involve some combination of meeting our energy and material demands through sustainable resources and finding ways to reduce the amount of those resources required for the services we demand. Other adaptations are social, including changes to what our goals are and thus what services we demand and how we organize ourselves to meet them. Social adaptations involve the creation of human organization centered around solidarity, equality, and cooperation towards collective success and the equal interest of all individuals across species and generations.
 
@@ -154,7 +156,7 @@ The ideal solution that VerdanTech represents can be thought of as an abstract m
 
 The project as a whole encompasses three main areas:
 
-- **Garden Productivity Engine**: At its core, VerdanTech is a garden productivity tool which can be used by growers to assist in planning and tracking their systems, whether that is a single container, a sizeable backyard garden, or a sprawling food forest. This includes features such as the visualization of planting calendars, the manual and automatic spatio-temporal planning of crops, the distillation of available data into a realizable set of actions, and the synchronous multi-client use of all these systems. While the facilitation of a sustainable agriculture revolution is aspirational, these core features are intended to be useful to, if nothing else, the hobbyist gardener.
+- **Garden Productivity Engine**: At its core, VerdanTech is a garden productivity tool which can be used to assist in planning and tracking their systems, whether that is a single container, a sizeable backyard garden, or a sprawling food forest. This includes features such as the visualization of planting calendars, the manual and automatic spatio-temporal planning of crops, the distillation of available data into a realizable set of actions, and the synchronous multi-client use of all these systems. While the facilitation of a sustainable agriculture revolution is aspirational, these core features are intended to be useful to, if nothing else, the hobbyist gardener.
 - **Agro-Ecology Optimization Model**: The productivity model is extended to encompass metrics relevant to the sustainability of agriculture systems, including biodiversity, habitat, climate, nutrient and water cycles, and more. These metrics can then be used to shift productivity towards a holistic model of ecological health, allowing for the optimization of these systems to produce the desired quantity and diversity of food within a framework of ecological integration. 
 - **IoT Automation Suite**: The model required to achieve these goals becomes more effective the easier it is to supply data as input and execute outputs in the world. Thus, the goal is to follow an internet-of-things approach to connecting the model with external devices and automating the process of obtaining input data and executing output tasks. Input devices include weather services, temperature, moisture, and rainfall sensors, and images paired with computer vision. Output devices include irrigation controllers and robotic farming equipment. The sci-fi endgame of this concept is to support an end-to-end fully autonomous agriculture system.
 
