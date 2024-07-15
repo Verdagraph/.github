@@ -162,18 +162,6 @@ The project as a whole encompasses three main areas:
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-# Codebase
-
-The project currently is made up of several repositories:
-- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents, including summaries and maps of the domain model and wireframes for the web application.
-- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API that serves as a backend for the VerdanTech web application.
-- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application which serves as a frontend for the web application. 
-- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains web application deployment orchestration. 
-- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 # Features
 
 VerdanTech is currently still in a pre-alpha state. As there is only one contributor, these things take a while.
@@ -192,7 +180,26 @@ Future goals:
 - AgroplanGenerators which which create and transform Agroplans according to objectives (ex. quantities and proportions of plant varieties, maximum calories, biodiversity) using algorithmic strategies (ex. simulated annealing).
 - Actions which are to-do lists intelligently generated from garden state.
 - Environmental Inputs (ex. Temperature, Rainfall, Images), and Outputs (ex. Irrigation Control) which add behavior to the model, as well as Devices (ex. APIs, embedded systems) which expose these ports to other systems.
-- Differential synchronization of client and server data for smooth multi-client use. 
+- Differential synchronization of client and server data for smooth multi-client use.
+
+# Codebase
+
+The project currently is made up of several repositories:
+- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents, including summaries and maps of the domain model and wireframes for the web application.
+- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API that serves as a backend for the VerdanTech web application.
+- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application which serves as a frontend for the web application. 
+- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains web application deployment orchestration. 
+- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
+
+## Contributing
+
+First, join the [discord server](https://discord.gg/XH4kQcpz9p). If you have an idea for a contribution to make, talk to other contributors first to establish what the contribution should look like.
+
+A [Github Project](https://github.com/orgs/VerdanTech/projects/1) is used to organize tickets for the web app. Tickets are automatically assigned issues when connected to a repository. Generally, tickets should be made such that we can maintain one branch per ticket and they can be done independently. 
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 
 [version-shield]: https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge
 [version-url]: https://github.com/nathanielarking/Autonomous-Agriculture/releases
