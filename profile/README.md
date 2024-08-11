@@ -186,8 +186,7 @@ Future goals:
 
 The project currently is made up of several repositories:
 - [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents, including summaries and maps of the domain model and wireframes for the web application.
-- [Backend](https://github.com/VerdanTech/VerdanTech-Backend) contains a Python HTTP API that serves as a backend for the VerdanTech web application.
-- [Frontend](https://github.com/VerdanTech/VerdanTech-Frontend) contains a Svelte-Kit static adapter application which serves as a frontend for the web application. 
+- [Webapp](https://github.com/VerdanTech/Vdt-Webapp) contains a Python HTTP API and SvelteKit static adapter app as the full-stack of the VerdanTech web application.
 - [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains web application deployment orchestration. 
 - [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
 
@@ -195,7 +194,7 @@ The project currently is made up of several repositories:
 
 First, join the [discord server](https://discord.gg/XH4kQcpz9p). If you have an idea for a contribution to make, talk to other contributors first to establish what the contribution should look like.
 
-A [Github Project](https://github.com/orgs/VerdanTech/projects/1) is used to organize tickets for the web app. Tickets are automatically assigned issues when connected to a repository. Generally, tickets should be made such that we can maintain one branch per ticket and they can be done independently. 
+See the [Webapp](https://github.com/VerdanTech/Vdt-Webapp) repository for information on setting up the development environment.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
