@@ -43,11 +43,11 @@
   </p>
 </div>
 
-VerdanTech is an open source technology project seeking to provide tools that make it easier to collaboratively plan, track, optimize, and automate agro-ecological systems at any scale. 
+VerdanTech is an open source project seeking to provide tools that make it easier to collaboratively plan, track, optimize, and automate agro-ecological systems at any scale. 
 
 It is best summarized as a fusion between:
 
-- **Garden Productivity Engine**: An intricate and interactive model of agriculture which facilitates the data-driven planning of productive spaces and the collaborative coordination of labour at any scale.
+- **Garden Productivity Engine**: An interactive model of agriculture which facilitates the data-driven planning of productive spaces and the collaborative coordination of labour at any scale.
 - **Agro-Ecology Optimization Model**: A model which captures the relationship between agriculture and the broader ecological system, with the goal of producing a healthy abundance and diversity of food with minimal reliance on conditions of resource depletion and ecological destruction.
 - **IoT Automation Suite**: An Internet-of-Things (IoT) platform which serves as an extensible interface for integration with external APIs and a set of embedded devices designed to automate the process of obtaining measurements and executing tasks.
 
@@ -152,13 +152,24 @@ In short, the goal of VerdanTech is to create tools which:
 - Facilitate the horizontal organization of human labour through collaborative systems.
 - Ultimately enhance our adaptive capacity towards a sustainable agriculture system by putting the means of agro-ecological production and innovation into the hands of everyone.
 
-The ideal solution that VerdanTech represents can be thought of as an abstract model which takes in as input all available data regarding the conditions of a local biosphere and produces as output a comprehensive list of steps required to transition that biosphere into the optimal agro-ecological system.
+What do these tools look like? At its core, VerdanTech consists of a collaborative web application which implements an interactive model of agriculture. Additionally, a suite of embedded systems will form an integrated system which can collect data and utilize the model to organize the outputs required to transform the real world into the optimal agro-ecological system.
 
-The project as a whole encompasses three main areas:
-
-- **Garden Productivity Engine**: At its core, VerdanTech is a garden productivity tool which can be used to assist in planning and tracking their systems, whether that is a single container, a sizeable backyard garden, or a sprawling food forest. This includes features such as the visualization of planting calendars, the manual and automatic spatio-temporal planning of crops, the distillation of available data into a realizable set of actions, and the synchronous multi-client use of all these systems. While the facilitation of a sustainable agriculture revolution is aspirational, these core features are intended to be useful to, if nothing else, the hobbyist gardener.
+To expand further, these tools focus on three main areas:
+- **Garden Productivity Engine**: At its core, VerdanTech is a garden productivity tool which can be used to assist in planning and tracking agricultural systems. VerdanTech allows the modelling of individual plants and their lifecycles within spatial constraints, serving as a digital representation of cultivation.
 - **Agro-Ecology Optimization Model**: The productivity model is extended to encompass metrics relevant to the sustainability of agriculture systems, including biodiversity, habitat, climate, nutrient and water cycles, and more. These metrics can then be used to shift productivity towards a holistic model of ecological health, allowing for the optimization of these systems to produce the desired quantity and diversity of food within a framework of ecological integration. 
-- **IoT Automation Suite**: The model required to achieve these goals becomes more effective the easier it is to supply data as input and execute outputs in the world. Thus, the goal is to follow an internet-of-things approach to connecting the model with external devices and automating the process of obtaining input data and executing output tasks. Input devices include weather services, temperature, moisture, and rainfall sensors, and images paired with computer vision. Output devices include irrigation controllers and robotic farming equipment. The sci-fi endgame of this concept is to support an end-to-end fully autonomous agriculture system.
+- **IoT Automation Suite**: The model required to achieve these goals becomes more effective the easier it is to supply data as input and execute outputs in the world. Thus, the goal is to follow an internet-of-things approach to connecting the model with external devices and automating the process of obtaining input data and executing output tasks. Input devices include weather services, temperature, moisture, and rainfall sensors, and images paired with computer vision. Output devices include irrigation controllers and robotic farming equipment.
+
+To get an idea of the use cases of these tools, consider the following questions, and how a software tool could best assist:
+- How can I keep track of when to start my plants given my local environmental conditions?
+- How can I organize plants spatially such that I am making good use of the space available to me?
+- How can I organize plants throughout time such that I am making good use of the space available to me?
+- How can I create multiple plans of the garden and compare them against multiple metrics?
+- How can I keep track of all the actions which need to be taken throughout the year for each plant?
+- How can I handle the increased complexity of my garden as I try to increase biodiversity?
+- How can I automatically generate plans for my garden instead of starting from scratch?
+- How can I collaborate on a plan for my garden with multiple people and keep track of who is completing which tasks?
+- How can I adjust my plans dynamically based on feedback from the environment, such as weather?
+- How can I integrate control of outputs, such as automatic irrigation equipment, with the specific needs of plants throughout time? 
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -166,28 +177,22 @@ The project as a whole encompasses three main areas:
 
 VerdanTech is currently still in a pre-alpha state. As there is only one contributor, these things take a while.
 
-1.0 (Minimum Viable Product) Goals:
-- User registration, authentication, and management system. (Backend 75%, frontend 40%)
-- Gardens which act as containers for most application data and workspaces shared by multiple Users. (Backend 40%, frontend 5%)
-- Workspaces which give spatial context to geometries such as Plants and PlantingAreas. (Backend 5%, frontend 0%)
-- Attribute system which flexibly represents a diverse range of environmental and biological characteristics. (Backend 15%, frontend 0%)
-- Cultivars which are compositions of attributes into representations of plant types, species, and varieties. (Backend 5%, frontend 0%)
-- Plants which are representations of physical instances of plants and their lifecycles and behaviours within PlantingAreas. (Backend 5%, frontend 0%)
-- Agroplans which are integrations of past/current and future instances of Plants into plans which are validated against physical contstraints and can be optimized. (Backend 0%, frontend 0%)
-- A Planner interface which visualizes the planting windows of plant varieties over time and the 2D representation of workspaces throughout time. (Backend 0%, frontend 0%)
+1.0 (Minimum Viable Product) goals include implementation of the following:
+- Gardens which act as containers for most application data and are workspaces shared by multiple users.
+- Workspaces which give spatial context to geometries such as Plants and PlantingAreas.
+- Cultivars which are compositions of attributes into representations of plant types, species, and varieties, and can be composed and shared between users.
+- Plants which are representations of physical instances of plants and their lifecycles and behaviours, and can be grouped together to create multiple mututally exclusive plans that can be compared.
+- Actions which are sets of tasks that should be taken to align the state of the world with the model state, and can be assigned to different users.
 
 Future goals:
-- AgroplanGenerators which which create and transform Agroplans according to objectives (ex. quantities and proportions of plant varieties, maximum calories, biodiversity) using algorithmic strategies (ex. simulated annealing).
-- Actions which are to-do lists intelligently generated from garden state.
+- Environments which are containers for environmental and ecological characteristics and allow the composition of micro-climates.
+- Generators which which create groups of plants according to objectives (ex. quantities and proportions of plant varieties, maximum calories, biodiversity) using algorithmic strategies (ex. simulated annealing).
 - Environmental Inputs (ex. Temperature, Rainfall, Images), and Outputs (ex. Irrigation Control) which add behavior to the model, as well as Devices (ex. APIs, embedded systems) which expose these ports to other systems.
-- Differential synchronization of client and server data for smooth multi-client use.
 
 # Codebase
 
-The project currently is made up of several repositories:
-- [Outline](https://github.com/VerdanTech/VerdanTech-Outline) contains high level conceptual overviews and design documents, including summaries and maps of the domain model and wireframes for the web application.
-- [Webapp](https://github.com/VerdanTech/Vdt-Webapp) contains a Python HTTP API and SvelteKit static adapter app as the full-stack of the VerdanTech web application.
-- [Deployment](https://github.com/VerdanTech/VerdanTech-Deployment) contains web application deployment orchestration. 
+The project currently is made up of two repositories:
+- [Webapp](https://github.com/VerdanTech/Vdt-Webapp) contains the web application including SvelteKit frontend and Fastify backend.
 - [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
 
 ## Contributing
