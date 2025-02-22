@@ -53,6 +53,10 @@ It is best summarized as a fusion between:
 
 VerdanTech has been in development since late 2022, or early 2021 if we count the [initial attempt](https://www.youtube.com/watch?v=w0TwPI7bLp8&ab_channel=TotalVeganicFuturism) at a similar idea. VerdanTech is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose.
 
+Here's a screenshot from the application - this page serves to add and modify geometries which represent planting areas / garden beds. The timeline selector on the bottom is used to scrub through time, as the data model allows modelling a history of locations as opposed to a single location.
+
+![Demo Screenshot](graphics/verdantech-demo.png)
+
 <!--- See the video introduction to VerdanTech here: --->
 <!--- [![Watch the video](https://img.youtube.com/vi/jGFHhRVdxRM/maxresdefault.jpg)](https://youtu.be/jGFHhRVdxRM) --->
 
