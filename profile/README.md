@@ -55,7 +55,7 @@ Verdagraph has been in development since late 2022, or early 2021 if we count th
 
 Here's a screenshot from the application - this page serves to add and modify geometries which represent planting areas / garden beds. The timeline selector on the bottom is used to scrub through time, as the data model allows modelling a history of locations as opposed to a single location.
 
-![Demo Screenshot](graphics/Verdagraph-demo.png)
+![Demo Screenshot](graphics/demo.png)
 
 <!--- See the video introduction to Verdagraph here: --->
 <!--- [![Watch the video](https://img.youtube.com/vi/jGFHhRVdxRM/maxresdefault.jpg)](https://youtu.be/jGFHhRVdxRM) --->
@@ -196,22 +196,22 @@ Future goals:
 # Codebase
 
 The project currently is made up of two repositories:
-- [Webapp](https://github.com/Verdagraph/Vdt-Webapp) contains the web application including SvelteKit frontend and Fastify backend.
-- [Drip](https://github.com/Verdagraph/Verdagraph-Drip) contains an embedded IOT irrigation controller.
+- [Webapp](https://github.com/Verdagraph/Webapp) contains the web application including SvelteKit frontend and Fastify backend.
+- [Drip](https://github.com/Verdagraph/Drip) contains an embedded IOT irrigation controller.
 
 ## Contributing
 
 First, join the [discord server](https://discord.gg/XH4kQcpz9p). If you have an idea for a contribution to make, talk to other contributors first to establish what the contribution should look like.
 
-See the [Webapp](https://github.com/Verdagraph/Vdt-Webapp) repository for information on setting up the development environment.
+See the [Webapp](https://github.com/Verdagraph/Webapp) repository for information on setting up the development environment.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 
 [version-shield]: https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge
-[version-url]: https://github.com/nathanielarking/Autonomous-Agriculture/releases
-[contributors-shield]: https://img.shields.io/github/contributors/nathanielarking/Verdagraph.svg?style=for-the-badge
-[contributors-url]: https://github.com/nathanielarking/Verdagraph/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/nathanielarking/Verdagraph.svg?style=for-the-badge
-[license-url]: https://github.com/nathanielarking/Verdagraph/LICENSE.txt
+[version-url]: https://github.com/Verdagraph/Webapp/releases
+[contributors-shield]: https://img.shields.io/github/contributors/Verdagraph/Webapp.svg?style=for-the-badge
+[contributors-url]: https://github.com/Verdagraph/Webapp/graphs/contributors
+[license-shield]: https://img.shields.io/github/license/Verdagraph/Webapp.svg?style=for-the-badge
+[license-url]: https://github.com/Verdagraph/Webapp/LICENSE.txt
