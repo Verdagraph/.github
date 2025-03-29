@@ -17,11 +17,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/VerdanTech">
-    <img src="https://github.com/VerdanTech/.github/blob/main/profile/graphics/logo.png" alt="Logo" width="200" height="200">
+  <a href="https://github.com/Verdagraph">
+    <img src="https://github.com/Verdagraph/.github/blob/main/profile/graphics/logo.png" alt="Logo" width="200" height="200">
   </a>
 
-<h3 align="center">VerdanTech</h3>
+<h3 align="center">Verdagraph</h3>
 
   <p align="center">
     A garden productivity tool, agro-ecology model, and IoT platform
@@ -43,7 +43,7 @@
   </p>
 </div>
 
-VerdanTech is an open source project seeking to provide tools that make it easier to collaboratively plan, track, optimize, and automate agro-ecological systems at any scale. 
+Verdagraph is an open source project seeking to provide tools that make it easier to collaboratively plan, track, optimize, and automate agro-ecological systems at any scale. 
 
 It is best summarized as a fusion between:
 
@@ -51,13 +51,13 @@ It is best summarized as a fusion between:
 - **Agro-Ecology Optimization Model**: A model which captures the relationship between agriculture and the broader ecological system, with the goal of producing a healthy abundance and diversity of food with minimal reliance on conditions of resource depletion and ecological destruction.
 - **IoT Automation Suite**: An Internet-of-Things (IoT) platform which serves as an extensible interface for integration with external APIs and a set of embedded devices designed to automate the process of obtaining measurements and executing tasks.
 
-VerdanTech has been in development since late 2022, or early 2021 if we count the [initial attempt](https://www.youtube.com/watch?v=w0TwPI7bLp8&ab_channel=TotalVeganicFuturism) at a similar idea. VerdanTech is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose.
+Verdagraph has been in development since late 2022, or early 2021 if we count the [initial attempt](https://www.youtube.com/watch?v=w0TwPI7bLp8&ab_channel=TotalVeganicFuturism) at a similar idea. Verdagraph is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose.
 
 Here's a screenshot from the application - this page serves to add and modify geometries which represent planting areas / garden beds. The timeline selector on the bottom is used to scrub through time, as the data model allows modelling a history of locations as opposed to a single location.
 
-![Demo Screenshot](graphics/verdantech-demo.png)
+![Demo Screenshot](graphics/Verdagraph-demo.png)
 
-<!--- See the video introduction to VerdanTech here: --->
+<!--- See the video introduction to Verdagraph here: --->
 <!--- [![Watch the video](https://img.youtube.com/vi/jGFHhRVdxRM/maxresdefault.jpg)](https://youtu.be/jGFHhRVdxRM) --->
 
 <div>
@@ -78,7 +78,7 @@ Here's a screenshot from the application - this page serves to add and modify ge
                     <a href="#modern-industrial-agriculture-and-the-ecological-alternative">Modern Industrial Agriculture and the Ecological Alternative</a>
                 </li>
                 <li>
-                    <a href="#the-goals-and-values-of-verdantech">The Goals and Values of VerdanTech</a>
+                    <a href="#the-goals-and-values-of-Verdagraph">The Goals and Values of Verdagraph</a>
                 </li>
             </ul>
         </li>
@@ -95,14 +95,14 @@ Here's a screenshot from the application - this page serves to add and modify ge
 
 # Background
 
-*This section highlights the problems that VerdanTech aims to solve and the nature of the solutions.*
+*This section highlights the problems that Verdagraph aims to solve and the nature of the solutions.*
 
 ## Agriculture
 
 Dictionary.com [defines agriculture as](https://www.dictionary.com/browse/agriculture):
 > the science, art, or occupation concerned with cultivating land, raising crops, and feeding, breeding, and raising livestock; farming.
 
-VerdanTech is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose. As a result, the word agriculture in the context of any VerdanTech documentation uses this definition:
+Verdagraph is built with [sentientist values](https://sentientism.info/) in mind, and as such does not consider sentient beings as acceptable subjects of exploitation for food or any other purpose. As a result, the word agriculture in the context of any Verdagraph documentation uses this definition:
 > the science, art, or occupation concerned with cultivating land and raising crops; farming.
 
 The specific term "animal agriculture" retains its meaning. 
@@ -125,7 +125,7 @@ Despite our reliance on these services, we maintain relationships with the ecolo
 
 A truly sustainable society requires many adaptations. Some are technological, including changes to what resources we depend on and what procceses we use to achieve our goals. Technological adaptations involve some combination of meeting our energy and material demands through sustainable resources and finding ways to reduce the amount of those resources required for the services we demand. Other adaptations are social, including changes to what our goals are and thus what services we demand and how we organize ourselves to meet them. Social adaptations involve the creation of human organization centered around solidarity, equality, and cooperation towards collective success and the equal interest of all individuals across species and generations.
 
-Almost all of these adaptations are interconnected, and massive in scope. VerdanTech focuses specifically on agriculture and its relation to ecology and the organization of human labour.
+Almost all of these adaptations are interconnected, and massive in scope. Verdagraph focuses specifically on agriculture and its relation to ecology and the organization of human labour.
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
@@ -148,18 +148,18 @@ In other words, the transition away from simple artifical ecosystems and non-ren
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-## The Goals and Values of VerdanTech
+## The Goals and Values of Verdagraph
 
-In short, the goal of VerdanTech is to create tools which:
+In short, the goal of Verdagraph is to create tools which:
 - Minimize the knowledge and cognitive load required to plan, track, optimize, and automate agro-ecological systems at any scale.
 - Transfer the co-creation of ecological knowledge into digital models made freely accessible to contextualized application.
 - Facilitate the horizontal organization of human labour through collaborative systems.
 - Ultimately enhance our adaptive capacity towards a sustainable agriculture system by putting the means of agro-ecological production and innovation into the hands of everyone.
 
-What do these tools look like? At its core, VerdanTech consists of a collaborative web application which implements an interactive model of agriculture. Additionally, a suite of embedded systems will form an integrated system which can collect data and utilize the model to organize the outputs required to transform the real world into the optimal agro-ecological system.
+What do these tools look like? At its core, Verdagraph consists of a collaborative web application which implements an interactive model of agriculture. Additionally, a suite of embedded systems will form an integrated system which can collect data and utilize the model to organize the outputs required to transform the real world into the optimal agro-ecological system.
 
 To expand further, these tools focus on three main areas:
-- **Garden Productivity Engine**: At its core, VerdanTech is a garden productivity tool which can be used to assist in planning and tracking agricultural systems. VerdanTech allows the modelling of individual plants and their lifecycles within spatial constraints, serving as a digital representation of cultivation.
+- **Garden Productivity Engine**: At its core, Verdagraph is a garden productivity tool which can be used to assist in planning and tracking agricultural systems. Verdagraph allows the modelling of individual plants and their lifecycles within spatial constraints, serving as a digital representation of cultivation.
 - **Agro-Ecology Optimization Model**: The productivity model is extended to encompass metrics relevant to the sustainability of agriculture systems, including biodiversity, habitat, climate, nutrient and water cycles, and more. These metrics can then be used to shift productivity towards a holistic model of ecological health, allowing for the optimization of these systems to produce the desired quantity and diversity of food within a framework of ecological integration. 
 - **IoT Automation Suite**: The model required to achieve these goals becomes more effective the easier it is to supply data as input and execute outputs in the world. Thus, the goal is to follow an internet-of-things approach to connecting the model with external devices and automating the process of obtaining input data and executing output tasks. Input devices include weather services, temperature, moisture, and rainfall sensors, and images paired with computer vision. Output devices include irrigation controllers and robotic farming equipment.
 
@@ -179,7 +179,7 @@ To get an idea of the use cases of these tools, consider the following questions
 
 # Features
 
-VerdanTech is currently still in a pre-alpha state. As there is only one contributor, these things take a while.
+Verdagraph is currently still in a pre-alpha state. As there is only one contributor, these things take a while.
 
 1.0 (Minimum Viable Product) goals include implementation of the following:
 - Gardens which act as containers for most application data and are workspaces shared by multiple users.
@@ -196,14 +196,14 @@ Future goals:
 # Codebase
 
 The project currently is made up of two repositories:
-- [Webapp](https://github.com/VerdanTech/Vdt-Webapp) contains the web application including SvelteKit frontend and Fastify backend.
-- [Drip](https://github.com/VerdanTech/VerdanTech-Drip) contains an embedded IOT irrigation controller.
+- [Webapp](https://github.com/Verdagraph/Vdt-Webapp) contains the web application including SvelteKit frontend and Fastify backend.
+- [Drip](https://github.com/Verdagraph/Verdagraph-Drip) contains an embedded IOT irrigation controller.
 
 ## Contributing
 
 First, join the [discord server](https://discord.gg/XH4kQcpz9p). If you have an idea for a contribution to make, talk to other contributors first to establish what the contribution should look like.
 
-See the [Webapp](https://github.com/VerdanTech/Vdt-Webapp) repository for information on setting up the development environment.
+See the [Webapp](https://github.com/Verdagraph/Vdt-Webapp) repository for information on setting up the development environment.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -211,7 +211,7 @@ See the [Webapp](https://github.com/VerdanTech/Vdt-Webapp) repository for inform
 
 [version-shield]: https://img.shields.io/badge/version-0.0.1-blue?style=for-the-badge
 [version-url]: https://github.com/nathanielarking/Autonomous-Agriculture/releases
-[contributors-shield]: https://img.shields.io/github/contributors/nathanielarking/VerdanTech.svg?style=for-the-badge
-[contributors-url]: https://github.com/nathanielarking/VerdanTech/graphs/contributors
-[license-shield]: https://img.shields.io/github/license/nathanielarking/VerdanTech.svg?style=for-the-badge
-[license-url]: https://github.com/nathanielarking/VerdanTech/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/nathanielarking/Verdagraph.svg?style=for-the-badge
+[contributors-url]: https://github.com/nathanielarking/Verdagraph/graphs/contributors
+[license-shield]: https://img.shields.io/github/license/nathanielarking/Verdagraph.svg?style=for-the-badge
+[license-url]: https://github.com/nathanielarking/Verdagraph/LICENSE.txt
